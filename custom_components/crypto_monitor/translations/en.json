@@ -1,0 +1,20 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Configure Crypto Monitor",
+                "description": "Enter your API key, secret and exchange currency to monitor",
+                "data": {
+                    "api_key": "API-key (starts with: organizations/",
+                    "api_secret": "API-secret (starts with: -----BEGIN EC PRIVATE KEY-----)",
+                    "exchange_currency": "Currency symbol (default = EUR)"
+                }
+            }
+        },
+        "error": {
+            "api_key_missing": "API-key is required",
+            "api_secret_missing": "API-secret is required",
+            "exchange_currency_missing": "Currency is required"
+        }
+    }
+}
