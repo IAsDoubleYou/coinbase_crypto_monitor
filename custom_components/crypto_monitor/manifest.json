@@ -1,0 +1,18 @@
+{
+    "domain": "crypto_monitor",
+    "name": "Crypto Monitor",
+    "version": "1.0.0",
+    "documentation": "https://github.com/je_gebruiker/crypto_monitor",
+    "requirements": [
+        "ccxt"
+    ],
+    "dependencies": [],
+    "codeowners": [
+        "@je_gebruiker"
+    ],
+    "config_flow": true,
+    "iot_class": "cloud_polling",
+    "translations": [
+        "nl.json"
+    ]
+}
