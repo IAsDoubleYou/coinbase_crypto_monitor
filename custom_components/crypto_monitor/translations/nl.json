@@ -1,0 +1,20 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Crypto Monitor configureren",
+                "description": "Voer je API key, secret en exchange valuta in om te monitoren",
+                "data": {
+                    "api_key": "API-sleutel (begint met: organizations/)",
+                    "api_secret": "API-secret (begint met: -----BEGIN EC PRIVATE KEY-----)",
+                    "exchange_currency": "Gewenste omrekenvaluta (default = EUR)"
+                }
+            }
+        },
+        "error": {
+            "api_key_missing": "De API-sleutel is verplicht",
+            "api_secret_missing": "De API-secret is verplicht",
+            "exchange_currency_missing": "De omrekenvaluta is verplicht"
+        }
+    }
+}
