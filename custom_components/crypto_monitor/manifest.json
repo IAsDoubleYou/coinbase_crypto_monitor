@@ -13,6 +13,5 @@
     ],
     "dependencies": [],
     "config_flow": true,
-    "translations": "translations",
     "version": "1.0.0"
 }
