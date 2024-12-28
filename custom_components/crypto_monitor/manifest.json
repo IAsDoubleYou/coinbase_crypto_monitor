@@ -1,18 +1,21 @@
 {
     "domain": "crypto_monitor",
     "name": "Crypto Monitor",
-    "version": "1.0.0",
-    "documentation": "https://github.com/je_gebruiker/crypto_monitor",
+    "codeowners": [
+        "@IAsDoubleYou"
+    ],
+    "documentation": "https://github.com/IAsDoubleYou/coinbase_crypto_monitor",
+    "integration_type": "hub",
+    "iot_class": "cloud_polling",
+    "issue_tracker": "https://github.com/IAsDoubleYou/coinbase_crypto_monitor/issues",
     "requirements": [
         "ccxt"
     ],
     "dependencies": [],
-    "codeowners": [
-        "@je_gebruiker"
-    ],
     "config_flow": true,
-    "iot_class": "cloud_polling",
     "translations": [
-        "nl.json"
-    ]
+        "nl.json",
+        "en.json"
+    ],
+    "version": "1.0.0"
 }

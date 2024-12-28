@@ -9,6 +9,7 @@ from homeassistant.helpers.discovery import load_platform
 
 from .const import DOMAIN, CONF_API_KEY, CONF_API_SECRET, CONF_EXCHANGE_CURRENCY
 
+
 PLATFORMS: list[Platform] = [Platform.SENSOR]
 
 _LOGGER = logging.getLogger(__name__)
@@ -38,10 +39,14 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
         api_token = {"apiKey": api_key, "secret": api_secret, "verbose": False,}
         connection = await hass.async_add_executor_job(connect_exchange, api_token)
 
-        hass.data[DOMAIN][entry.entry_id] = {
+        # hass.data[DOMAIN][entry.entry_id] = {
+        # "connection": connection,
+        # "exchange_currency": exchange_currency,
+        # }
+
+        hass.data[DOMAIN] = {
         "connection": connection,
         "exchange_currency": exchange_currency,
-        "other_data": "Hi there",
         }
 
         # Set up platforms
