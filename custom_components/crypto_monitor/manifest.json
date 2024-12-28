@@ -4,6 +4,8 @@
     "codeowners": [
         "@IAsDoubleYou"
     ],
+    "config_flow": true,
+    "dependencies": [],
     "documentation": "https://github.com/IAsDoubleYou/coinbase_crypto_monitor",
     "integration_type": "hub",
     "iot_class": "cloud_polling",
@@ -11,7 +13,5 @@
     "requirements": [
         "ccxt"
     ],
-    "dependencies": [],
-    "config_flow": true,
     "version": "1.0.0"
 }
