@@ -14,8 +14,8 @@
     "dependencies": [],
     "config_flow": true,
     "translations": [
-        "nl.json",
-        "en.json"
+        "en",
+        "nl"
     ],
     "version": "1.0.0"
 }
