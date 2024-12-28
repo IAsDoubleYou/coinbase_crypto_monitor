@@ -1,19 +1,19 @@
-[![HACS Custom][hacs_shield]][hacs]  
-[![GitHub Latest Release][releases_shield]][latest_release]  
-[![GitHub All Releases][downloads_total_shield]][releases]  
-[![Community Forum][community_forum_shield]][community_forum]  
+[![HACS Custom][hacs_shield]][hacs]
+[![GitHub Latest Release][releases_shield]][latest_release]
+[![GitHub All Releases][downloads_total_shield]][releases]
+[![Community Forum][community_forum_shield]][community_forum]
 
-[hacs_shield]: https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge  
-[hacs]: https://github.com/hacs/integration  
+[hacs_shield]: https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge
+[hacs]: https://github.com/hacs/integration
 
-[latest_release]: https://github.com/IAsDoubleYou/coinbase_crypto_monitor/releases/latest  
-[releases_shield]: https://img.shields.io/github/release/IAsDoubleYou/coinbase_crypto_monitor.svg?style=for-the-badge  
+[latest_release]: https://github.com/IAsDoubleYou/coinbase_crypto_monitor/releases/latest
+[releases_shield]: https://img.shields.io/github/release/IAsDoubleYou/coinbase_crypto_monitor.svg?style=for-the-badge
 
-[releases]: https://github.com/IAsDoubleYou/coinbase_crypto_monitor/releases/  
-[downloads_total_shield]: https://img.shields.io/github/downloads/IAsDoubleYou/coinbase_crypto_monitor/total?style=for-the-badge  
+[releases]: https://github.com/IAsDoubleYou/coinbase_crypto_monitor/releases/
+[downloads_total_shield]: https://img.shields.io/github/downloads/IAsDoubleYou/coinbase_crypto_monitor/total?style=for-the-badge
 
-[community_forum_shield]: https://img.shields.io/static/v1.svg?label=%20&message=Forum&style=for-the-badge&color=41bdf5&logo=HomeAssistant&logoColor=white  
-[community_forum]: https://community.home-assistant.io/t/mysql-query/734346  
+[community_forum_shield]: https://img.shields.io/static/v1.svg?label=%20&message=Forum&style=for-the-badge&color=41bdf5&logo=HomeAssistant&logoColor=white
+[community_forum]: https://community.home-assistant.io/t/mysql-query/734346
 
 # Crypto Monitor  
 
